@@ -33,11 +33,11 @@ The automated pipeline evaluates binding affinities, computes rescore indices in
 ```text
 autodock-rescore-toolkit/
 ├── data/
-│   └── docking_results.csv           # Raw docking scores and compound metadata
-├── docking_affinity_plot.png         # High-resolution benchmark affinity profile plot
-├── docking_analyzer.py               # Main pipeline automation & rescoring script
-├── docking_rescored_results.xlsx     # Rescored and ranked screening dataset (Excel)
-└── README.md                         # Project documentation and pipeline guide
+│   └── docking_results.csv        # Binding scores, H-bonds, and ADMET dataset
+├── docking_analyzer.py            # Automated rescoring & visualization script
+├── docking_rescore_profile.png    # High-resolution screening plot
+├── README.md                      # Pipeline documentation & benchmark findings
+└── requirements.txt               # Environment dependencies
 ```
 
 ## Usage
