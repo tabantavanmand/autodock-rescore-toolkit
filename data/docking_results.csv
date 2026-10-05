@@ -1,0 +1,10 @@
+ligand_id,compound,source_plant,category,mean_binding_energy,run_count,cluster_count
+S1,Acteoside,Plantago ovata,phytochemical,-14.36,50,3
+K5,Quercetin 3-O-beta-D-glucuronide,Anethum graveolens,phytochemical,-11.27,50,4
+I1,Rutin,Morus alba,phytochemical,-10.84,50,3
+J6,Rutin,Punica granatum,phytochemical,-10.84,50,3
+A1,Liquiritin,Glycyrrhiza glabra,control,-10.36,50,2
+H1,Complex compound,Vitis vinifera,phytochemical,-10.19,50,4
+W2,Complex compound,unknown,phytochemical,-9.87,50,3
+ICOT,Icotidine,reference drug,drug_control,-8.42,50,2
+HIS,Histamine,endogenous ligand,control,-4.73,50,2
