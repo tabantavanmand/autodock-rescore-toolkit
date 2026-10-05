@@ -17,16 +17,27 @@ This repository contains standalone Python automation scripts developed to parse
 
 ---
 
+## Screening Visualization & Benchmark Profile
+
+The automated pipeline evaluates binding affinities, computes rescore indices incorporating ligand efficiency, and generates publication-quality benchmark plots:
+
+<p align="center">
+  <img src="docking_affinity_plot.png" alt="AutoDock Rescore Screening Affinity Profile" width="850">
+</p>
+
+*Figure: Comparative binding free energy ($\Delta G$, kcal/mol) profile highlighting primary lead phytochemicals against standard benchmark controls.*
+
+---
+
 ## Repository Structure
 ```text
 autodock-rescore-toolkit/
 ├── data/
-│   └── docking_results.csv         # Raw docking scores and compound metadata
-├── results/
-│   ├── top_screened_hits.csv       # Filtered high-affinity candidate leads
-│   └── docking_energy_comparison.png # Comparative visualization plot
-├── docking_analyzer.py             # Main automation & analysis script
-└── README.md                       # Project documentation
+│   └── docking_results.csv           # Raw docking scores and compound metadata
+├── docking_affinity_plot.png         # High-resolution benchmark affinity profile plot
+├── docking_analyzer.py               # Main pipeline automation & rescoring script
+├── docking_rescored_results.xlsx     # Rescored and ranked screening dataset (Excel)
+└── README.md                         # Project documentation and pipeline guide
 ```
 
 ## Usage
